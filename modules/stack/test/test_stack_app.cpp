@@ -76,6 +76,8 @@ TEST_F(StackApplicationTest, Can_Create_Big_Stack) {
 
 TEST_F(StackApplicationTest, GetRetCode) {
     // Arrange
+    TStack c;
+    c.GetRetCode();
     int b = DataOK;
     std::vector<std::string> args = {"0"};
     // Act
